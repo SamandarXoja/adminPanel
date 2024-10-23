@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+    align-items: start;
+    gap: 32px;
+    padding-block: 20px;
+
+    .parent {
+        width: 100%;
+        max-width: 800px;
+
+        .inputs {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 100%;
+        }
+    }
+
+    .title {
+        font-size: 14px;
+        font-weight: 500;
+        color: $black;
+        width: 280px;
+    }
+
+    .seat {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        background-color: #EAEAEB;
+        display: relative;
+        cursor: pointer;
+    }
+}
